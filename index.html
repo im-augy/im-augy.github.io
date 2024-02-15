@@ -17,7 +17,7 @@
     
     <!-- BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY -->
     
-    <body style="background-color: rgb(255, 255, 255, 0);">
+    <body style="background-color: #f0f0f0;">
   
 
      <!-- Bootstrap 5 Bundle with Popper -->
@@ -39,6 +39,16 @@
     @media (max-width: 768px) {
     h1 {
         text-align: center;
+    }
+    .text-box {
+      border: 20px solid #333; /* Add a border */ 
+      padding: 20px; /* Add some padding */
+      background-color: #f0f0f0; /* Add a background color */
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Add a box shadow */
+      background-image: linear-gradient(to bottom, #f0f0f0, #e0e0e0); /* Add a gradient background */
+      max-width: 500px; /* Limit the width of the box */
+      margin: 0 auto; /* Center the box horizontally */
+      border-radius: 5px; /* Add rounded corners */
     }
 }
 </style>
@@ -81,25 +91,23 @@ style="background-color: rgba(245, 235, 241, 0) !important">
     <div class="container">
       <div class="flex-item">
         <div class="photo-gallery-item" data-animation-role="image">   
-          <img src="img/photogallery/131890182_432786641439268_5147035129763882_n copy.jpeg" style="width: 100%;"/>
+          <!-- <img src="img/photogallery/131890182_432786641439268_5147035129763882_n copy.jpeg" style="width: 100%;"/> -->
         </div>
         </div>
+         
+        
+
         <div class="flex-item" style="margin-left: 15px;">
-          <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
-            Hey!<br/>
-            Welcome to my corner of the internet, nice to see you here!<br/>
-            <br/>
-            I'm Augy<br/>
-            <br/>
-            - music producer<br/>
-            - singer<br/>
-            - songwriter<br/>
-            - I play some instruments<br/>
-            <br/>
-            - Recently I started making youtube videos<br/>
-            <br/>
-            I work as a product manager at a startup.
-          </p>
+          <div class="text-box"> 
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+              Hi, welcome to this corner of the internet! <br/>
+              I'm Augy <br/>
+              I make music and I work as product manager. <br/>
+              I make youtube videos where I share my experience with work, productivity, mental health & other life stuff. <br/>
+              Maybe I will also be posting some behind the scenes from my music making process :) 
+            </p>
+          </div>
+          
 
         </div>
         <div class="flex-item">
@@ -107,8 +115,7 @@ style="background-color: rgba(245, 235, 241, 0) !important">
         </div>
     </div>
 
-   
-    
-    
+  
+  </div>
   </body>
 </html>
