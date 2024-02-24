@@ -1,0 +1,96 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Augy</title>
+    <link rel="stylesheet" href="css/screen.css">
+
+    <link rel="preload" as="image" href="img/photogallery/001-16789205_408330506184942_3716690154782457856_n.jpg">
+
+    <style>
+        :root {
+            --background-color: rgb(28, 28, 28)
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast was taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <meta name="description" content="Augy">
+    <link rel="icon" href="img/avatar-flower-jacket.jpg" type="image/png">
+    <link rel="canonical" href="https://www.im-augy.com/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <!-- <meta property="og:site_name" content="augy"> -->
+    <!-- <meta property="og:type" content="website"> -->
+    <!-- <meta property="og:title" content="augy"> -->
+    <!-- <meta property="og:description" content="Augy"> -->
+    <!-- <meta property="og:url" content="https://www.im-augy.com/"> -->
+    <!-- <meta property="og:image" content="https://www.im-augy.com/content/images/size/w1200/2024/02/IMG_4429-3.jpg"> -->
+    <!-- <meta property="article:publisher" content="https://www.facebook.com/www.youtube.com/@im-augy"> -->
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <!-- <meta name="twitter:title" content="augy"> -->
+    <!-- <meta name="twitter:description" content="Augy"> -->
+    <!-- <meta name="twitter:url" content="https://www.im-augy.com/"> -->
+    <!-- <meta name="twitter:image" content="https://www.im-augy.com/content/images/size/w1200/2024/02/IMG_4429-3.jpg"> -->
+    <!-- <meta property="og:image:width" content="1200"> -->
+    <!-- <meta property="og:image:height" content="800"> -->
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "publisher": {
+        "@type": "Organization",
+        "name": "augy",
+        "url": "https://www.im-augy.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.im-augy.com/content/images/2024/01/Untitled_Artwork-2-1.png"
+        }
+    },
+    "url": "https://www.im-augy.com/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.im-augy.com/content/images/size/w1200/2024/02/IMG_4429-3.jpg",
+        "width": 1200,
+        "height": 800
+    },
+    "mainEntityOfPage": "https://www.im-augy.com/",
+    "description": "Augy"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.79">
+    <link rel="alternate" type="application/rss+xml" title="Augy" href="https://www.im-augy.com/rss/">
+
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js"
+        data-key="1254d8fff6d5aaef7433aea12f" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css"
+        data-sodo-search="https://im-augy.ghost.io/" crossorigin="anonymous"></script>
+
+    <link href="https://www.im-augy.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=59aeded5e8"></script>
+    <style>
+        :root {
+            --ghost-accent-color: #354f94;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=59aeded5e8">
+</head>
