@@ -17,7 +17,7 @@
                 <div class="gh-header-inner gh-inner">
 
                     <img class="gh-header-image"
-                        src="img/photogallery/002-241145472_878002969784612_2982762501267440883_n.jpg" alt="acsdcscugy">
+                        src="img/photogallery/002-241145472_878002969784612_2982762501267440883_n.jpg" alt="augy">
 
                     <div class="gh-header-content">
                         <h1 class="gh-header-primary">Augy</h1>
@@ -74,11 +74,11 @@
     <script src="js/main.min.js"></script>
 
     <script>
-        fetch('head.html')
+        fetch('ghost-head.html')
             .then(response => response.text())
             .then(data => document.getElementById('head').innerHTML = data);
     
-        fetch('header.html')
+        fetch('ghost-header.html')
             .then(response => response.text())
             .then(data => document.getElementById('header').innerHTML = data);
     
@@ -86,7 +86,7 @@
             .then(response => response.text())
             .then(data => document.getElementById('mailchimp').innerHTML = data);
     
-        fetch('footer.html')
+        fetch('ghost-footer.html')
             .then(response => response.text())
             .then(data => document.getElementById('footer').innerHTML = data);
     </script>
