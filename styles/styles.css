@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(rgb(28, 28, 28));
+    color: whitesmoke;
+}
+
+.navbar {
+    background-color: rgb(28, 28, 28);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #d3d3d3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #3e3e3e;
+    color: rgb(227, 227, 227);
+}
+
+.content {
+    background-color: rgb(28, 28, 28);
+    padding-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.description {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(28, 28, 28);
+    /* Light background color */
+    padding: 1px 0;
+    /* Add some padding for spacing */
+    border-radius: 5px;
+    /* Optional: Adds rounded corners */
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #666;
+    /* Darker, less prominent color */
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #666;
+    /* No change on hover to keep it subtle */
+}
+
+.blog-div {
+    width: 480px;
+    margin: 0 auto;
+    
+}
+
+@media (max-width: 480px) {
+    .blog-div {
+        width: 100%; /* Make the div fit the screen width on smaller devices */
+    }
+    .main-photo {
+        width: 100%;
+    }
+}
