@@ -6,7 +6,7 @@ body {
     color: whitesmoke;
 }
 
-.navbar {
+.augy-navbar {
     background-color: rgb(28, 28, 28);
     overflow: hidden;
     position: fixed;
@@ -14,7 +14,7 @@ body {
     width: 100%;
 }
 
-.navbar a {
+.augy-navbar a {
     float: left;
     display: block;
     color: #d3d3d3;
@@ -23,7 +23,7 @@ body {
     text-decoration: none;
 }
  
-.navbar a:hover {
+.augy-navbar a:hover {
     background-color: #3e3e3e;
     color: rgb(227, 227, 227);
 }
