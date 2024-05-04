@@ -72,11 +72,11 @@ textarea {
     --color-secondary-text-dark: rgba(0, 0, 0, .4);
     --color-secondary-text-light: hsla(0, 0%, 100%, .64);
     --color-secondary-text: var(--color-secondary-text-dark);
-    --color-white: #fff;
+    /* --color-white: #fff;
     --color-lighter-gray: #f6f6f6;
     --color-light-gray: #e6e6e6;
     --color-dark-gray: #ccc;
-    --color-mid-gray: #b7b8ba;
+    --color-mid-gray: #b7b8ba; */
     --color-black: #000;
     --color-border: rgba(167, 167, 167, 0.08);
     --font-sans: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
@@ -90,7 +90,7 @@ textarea {
 :root.has-light-text {
     --color-secondary-text: var(--color-secondary-text-light);
     --color-lighter-gray: rgba(0, 0, 0, .1);
-    --color-darker-gray: #fff;
+    /* --color-darker-gray: #fff; */
     --color-border: hsla(0, 0%, 100%, .2)
 }
 
@@ -99,7 +99,7 @@ html {
 }
 
 body {
-    background-color: var(--color-white);
+    background-color: rgb(28, 28, 28);
     color: var(--color-primary-text);
     font-family: var(--font-sans);
     font-size: 1.6rem;

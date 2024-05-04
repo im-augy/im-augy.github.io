@@ -22,7 +22,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
-
+ 
 .navbar a:hover {
     background-color: #3e3e3e;
     color: rgb(227, 227, 227);
@@ -85,6 +85,31 @@ body {
     width: 480px;
     margin: 0 auto;
     
+}
+
+.about-me-on-homepage {
+}
+
+.augy-header-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 2000px;
+    text-align: center;
+    word-break: break-word
+}
+
+.augy-header-primary {
+    --font-multipler: 1.06
+}
+
+.augy-header-image-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 2000px;
 }
 
 @media (max-width: 480px) {
