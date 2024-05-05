@@ -24,33 +24,27 @@ ul[role=list] {
     list-style: none
 }
 
-html:focus-within {
+/* html:focus-within {
     scroll-behavior: smooth
-}
-
-body {
-    line-height: 1.5;
-    min-height: 100vh;
-    text-rendering: optimizespeed
-}
+} */
 
 a:not([class]) {
     -webkit-text-decoration-skip: ink;
     text-decoration-skip-ink: auto
 }
 
-img,
+/* img,
 picture {
     display: block;
     max-width: 100%
-}
+} */
 
-button,
+/* button,
 input,
 select,
 textarea {
     font: inherit
-}
+} */
 
 @media (prefers-reduced-motion:reduce) {
     html:focus-within {

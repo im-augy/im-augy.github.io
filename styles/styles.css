@@ -30,6 +30,12 @@ body {
     text-align: center;
 }
 
+img,
+picture {
+    display: block;
+    max-width: 100%
+}
+
 .augy-navbar {
     background-color: rgb(28, 28, 28);
     overflow: hidden;
@@ -67,6 +73,11 @@ body {
 .gh-header-primary {
     font-size: calc(clamp(3rem, 2.05vw + 3rem, 6rem)*var(--font-multiplier, 1));
     line-height: 1.2
+}
+
+.mailchimp-contact {
+    width: 500px;
+    height: 500px;
 }
 
 @media (max-width: 480px) {
