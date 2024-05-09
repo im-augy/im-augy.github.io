@@ -36,6 +36,11 @@ picture {
     max-width: 100%
 }
 
+a {
+    color: whitesmoke;
+}
+
+
 .augy-navbar {
     background-color: rgb(28, 28, 28);
     overflow: hidden;
