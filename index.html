@@ -11,7 +11,7 @@
 <div id="head"></div>
 
 <body>
-    <div id="header"></div>
+    <div id="augy-navbar"></div>
     <!-- <div class="content"> -->
 
         <!-- <img class="main-photo" src="img/avatar-flower-jacket.jpg" alt="Artist Photo"> -->
@@ -63,15 +63,12 @@
 
 
         <!-- </main> -->
-
-
-        
          
 
     <script>
-            fetch('pages/header.html')
+            fetch('pages/navbar.html')
             .then(response => response.text())
-            .then(data => document.getElementById('header').innerHTML = data);
+            .then(data => document.getElementById('augy-navbar').innerHTML = data);
 
             // fetch('pages/mailchimp.html')
             // .then(response => response.text())
