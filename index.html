@@ -8,10 +8,23 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head> -->
 
-<div id="head"></div>
+<!-- <div id="head"></div> -->
+
+<head>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <!-- <link rel="stylesheet" href="../styles/screen.css"> -->
+    <title>Augy Music</title>
+</head>
 
 <body>
-    <div id="augy-navbar"></div>
+    <!-- <div id="augy-navbar"></div> -->
+
+    <div class="augy-navbar">
+        <a href="https://im-augy.com">Home</a>
+        <a href="/pages/music.html">Music</a>
+        <a href="/pages/contact.html">Contact</a>
+    </div>
+
     <!-- <div class="content"> -->
 
         <!-- <img class="main-photo" src="img/avatar-flower-jacket.jpg" alt="Artist Photo"> -->
@@ -67,9 +80,9 @@
          
 
     <script>
-            fetch('pages/navbar.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('augy-navbar').innerHTML = data);
+            // fetch('pages/navbar.html')
+            // .then(response => response.text())
+            // .then(data => document.getElementById('augy-navbar').innerHTML = data);
 
             // fetch('pages/mailchimp.html')
             // .then(response => response.text())
