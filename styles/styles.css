@@ -75,6 +75,11 @@ a {
     max-width: 2000px;
 }
 
+/* .about-me-on-homepage {
+    max-width: 400px;
+    align-items: center;
+} */
+
 .gh-header-primary {
     font-size: calc(clamp(3rem, 2.05vw + 3rem, 6rem)*var(--font-multiplier, 1));
     line-height: 1.2
